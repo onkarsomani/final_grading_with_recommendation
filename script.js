@@ -327,6 +327,8 @@ document.addEventListener("DOMContentLoaded", function () {
             abvavcnt++;
         }
     }
+    positionDisplay = document.getElementById("tottt");
+    positionDisplay.textContent = ` ${totalMarksArray.length }`;
 
 
     positionDisplay = document.getElementById("abvav");
